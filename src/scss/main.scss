@@ -1,0 +1,93 @@
+@import './null.scss';
+@import '../../node_modules/bootstrap/dist/css/bootstrap.css';
+
+/////////////////////////////////////////////////////
+///import                                         ///
+/////////////////////////////////////////////////////
+
+/////////////////////////////////////////////////////
+///variables
+$fontFamaliMontserrat: "Montserrat", sans-serif;
+///end-variables
+/////////////////////////////////////////////////////
+
+/////////////////////////////////////////////////////
+///global
+*{
+    font-family: $fontFamaliMontserrat;
+    font-size: 20px;
+}
+///end-global
+/////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////
+///BODY
+body{
+    background-color: cadetblue;
+}
+
+._container{
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: aliceblue;
+    height: 600px;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+
+.container-content{
+
+    h1{
+        margin-top: 30px;
+        font-size: 30px;
+    }
+}
+
+.smail-list{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+
+    li{
+        margin: 20px;
+    }
+}
+
+
+.smail-list_smail{
+    img{
+        width: 100px;
+        height: 100px;
+    }
+}
+
+.vinner-content{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+    height: 200px;
+    margin-top: 30px;
+    border-radius: 20px;
+    background-color: cadetblue;
+
+
+
+    img{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100px;
+        height: 100px;
+
+        left: 50%;
+        transform: translate(-50%, 90%);
+    }
+}
+///END_BODY                                     
+////////////////////////////////////////////////////
