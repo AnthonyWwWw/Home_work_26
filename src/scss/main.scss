@@ -1,28 +1,13 @@
 @import './null.scss';
 @import '../../node_modules/bootstrap/dist/css/bootstrap.css';
 
-/////////////////////////////////////////////////////
-///import                                         ///
-/////////////////////////////////////////////////////
-
-/////////////////////////////////////////////////////
-///variables
 $fontFamaliMontserrat: "Montserrat", sans-serif;
-///end-variables
-/////////////////////////////////////////////////////
 
-/////////////////////////////////////////////////////
-///global
 *{
     font-family: $fontFamaliMontserrat;
     font-size: 20px;
 }
-///end-global
-/////////////////////////////////////////////////////
 
-
-/////////////////////////////////////////////////////
-///BODY
 body{
     background-color: cadetblue;
 }
@@ -57,37 +42,28 @@ body{
     }
 }
 
-
-.smail-list_smail{
-    img{
-        width: 100px;
-        height: 100px;
-    }
+img{
+    width: 100px;
+    height: 100px;
 }
 
-.vinner-content{
-    position: relative;
+.button-voting{
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: olivedrab;
+    color: aliceblue;
+    font-size: 25px;
+    font-family: $fontFamaliMontserrat;
+}
+
+.voting-results-content{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    width: 250px;
-    height: 200px;
-    margin-top: 30px;
-    border-radius: 20px;
-    background-color: cadetblue;
-
-
-
+    
     img{
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100px;
-        height: 100px;
+        margin-left: 100%;
 
-        left: 50%;
-        transform: translate(-50%, 90%);
+        transform: translate(-150%);
     }
 }
-///END_BODY                                     
-////////////////////////////////////////////////////
